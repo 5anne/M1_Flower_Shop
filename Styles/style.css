@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+p {
+    color: #27272799;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+button {
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+button:hover {
+    background-color: #e78195;
+}
+
+header,
+#hot-deal {
+    background-color: #E554731A;
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    width: 60%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.banner .banner-text * {
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+
+.banner-text h1 {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.banner-img img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 16px;
+}
+
+.flower-img {
+    background-color: #A7216226;
+    border-radius: 300px 300px 0px 0px;
+    padding: 5px 25px 0;
+    height: 400px;
+    display: flex;
+    align-items: end;
+}
+
+.flower-img img {
+    width: 100%;
+}
+
+.blue {
+    background-color: #0597A026;
+}
+
+.green {
+    background-color: #477D1126;
+}
+
+.flower p {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cartoon-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #2727270D;
+    padding: 50px 90px;
+}
+
+.cartoon-img {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#hot-deal {
+    margin: 100px 0;
+}
+
+.hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.hot-deal-text {
+    width: 75%;
+    max-width: 550px;
+}
+
+.hot-deal-text * {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.hot-deal-text h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.imp-off {
+    color: #E55473;
+}
+
+.sign-button {
+    display: flex;
+    justify-content: center;
+}
+
+.hot-deal-img {
+    max-width: 320px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.img-container img {
+    max-width: 237px;
+}
+
+.news-letter-main {
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 122px 0;
+}
+
+.container form {
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+.container form input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+#foot-container {
+    background-color: #272727;
+    padding: 100px 0;
+}
+
+.pink {
+    color: #E55473;
+}
+
+.white {
+    color: #fff;
+}
+
+.foot-text {
+    color: #FFFFFFE6;
+}
